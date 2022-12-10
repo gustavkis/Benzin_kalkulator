@@ -50,6 +50,14 @@ function uj() {
     var arSapkasAron1 = document.getElementById("fizetendoArSapkasAr");
     arSapkasAron1.appendChild(spanom);
   }
+  function kiiras4(szoveg) {
+    var spanom = document.createElement("span");
+    var piaciAronErtek = document.createTextNode(szoveg);
+    spanom.appendChild(piaciAronErtek);
+    document.getElementById("fizetendo").innerHTML = "";
+    var piaciAron = document.getElementById("fizetendo");
+    piaciAron.appendChild(spanom);
+  }
 
 
   function azonosit() {
