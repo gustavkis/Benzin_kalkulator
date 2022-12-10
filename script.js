@@ -34,6 +34,14 @@ function uj() {
     var nincsPiaciAr = document.getElementById("fizetendoPiaciAr");
     nincsPiaciAr.appendChild(spanom);
   }
+  function kiiras2(szoveg) {
+    var spanom = document.createElement("span");
+    var fizetendoArSapkasArErtek = document.createTextNode(szoveg);
+    spanom.appendChild(fizetendoArSapkasArErtek);
+    document.getElementById("fizetendoArSapkasAr").innerHTML = "";
+    var fizetendoArSapkasAr = document.getElementById("fizetendoArSapkasAr");
+    fizetendoArSapkasAr.appendChild(spanom);
+  }
 
 
   function azonosit() {
