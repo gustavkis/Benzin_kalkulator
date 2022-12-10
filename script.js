@@ -26,6 +26,14 @@ function uj() {
     var arSapkasAron = document.getElementById("fizetendo");
     arSapkasAron.appendChild(spanom);
   }
+  function kiiras1(szoveg) {
+    var spanom = document.createElement("span");
+    var nincsPiaciArErtek = document.createTextNode(szoveg);
+    spanom.appendChild(nincsPiaciArErtek);
+    document.getElementById("fizetendoPiaciAr").innerHTML = "";
+    var nincsPiaciAr = document.getElementById("fizetendoPiaciAr");
+    nincsPiaciAr.appendChild(spanom);
+  }
 
 
   function azonosit() {
