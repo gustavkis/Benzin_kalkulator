@@ -18,6 +18,15 @@ function uj() {
     kiiras5(fizetendoPiaciAr);
   }
 
+  function kiiras(szoveg) {
+    var spanom = document.createElement("span");
+    var arSapkasAronErtek = document.createTextNode(szoveg);
+    spanom.appendChild(arSapkasAronErtek);
+    document.getElementById("fizetendo").innerHTML = "";
+    var arSapkasAron = document.getElementById("fizetendo");
+    arSapkasAron.appendChild(spanom);
+  }
+
 
   function azonosit() {
     arSapkasAr = parseInt(document.getElementById("arSapkasAr").value);
