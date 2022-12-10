@@ -1,0 +1,3 @@
+function uj() {
+    location.reload();
+  }
