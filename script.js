@@ -58,6 +58,14 @@ function uj() {
     var piaciAron = document.getElementById("fizetendo");
     piaciAron.appendChild(spanom);
   }
+  function kiiras5(szoveg) {
+    var spanom = document.createElement("span");
+    var fizetendoPiaciArErtek = document.createTextNode(szoveg);
+    spanom.appendChild(fizetendoPiaciArErtek);
+    document.getElementById("fizetendoPiaciAr").innerHTML = "";
+    var fizetendoPiaciAr = document.getElementById("fizetendoPiaciAr");
+    fizetendoPiaciAr.appendChild(spanom);
+  }
 
 
   function azonosit() {
