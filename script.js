@@ -42,6 +42,14 @@ function uj() {
     var fizetendoArSapkasAr = document.getElementById("fizetendoArSapkasAr");
     fizetendoArSapkasAr.appendChild(spanom);
   }
+  function kiiras3(szoveg) {
+    var spanom = document.createElement("span");
+    var arSapkasAron1Ertek = document.createTextNode(szoveg);
+    spanom.appendChild(arSapkasAron1Ertek);
+    document.getElementById("fizetendoArSapkasAr").innerHTML = "";
+    var arSapkasAron1 = document.getElementById("fizetendoArSapkasAr");
+    arSapkasAron1.appendChild(spanom);
+  }
 
 
   function azonosit() {
